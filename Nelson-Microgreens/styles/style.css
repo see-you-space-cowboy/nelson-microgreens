@@ -1,0 +1,20 @@
+.bar ol {
+    Position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+.bar li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+
+header {
+    width: auto;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    border: 1px solid black;
+  }
