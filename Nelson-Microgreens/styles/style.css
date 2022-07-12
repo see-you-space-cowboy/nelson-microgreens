@@ -1,10 +1,10 @@
-.bar ol {
+.navbar {
     Position: absolute;
     top: 80px;
     right: 20px;
 }
 
-.bar li {
+.bar {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
     display: inline;
