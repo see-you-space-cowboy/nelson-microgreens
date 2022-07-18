@@ -1,20 +1,37 @@
+.banner {
+    position: realtive;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .navbar {
     Position: absolute;
     top: 80px;
     right: 20px;
 }
 
-.bar {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style-type: none;
-    display: inline;
+a {
     text-decoration: none;
 }
 
-header {
-    width: auto;
-    height: 120px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    border: 1px solid black;
-  }
+.bar, a:visited {
+    position: realitive;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #a8a8a8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    list-style-type: none;
+    display: inline;
+}
+
+a:hover, a:active {
+    color: brown;
+}
