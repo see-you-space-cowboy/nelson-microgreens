@@ -1,7 +1,18 @@
+
 .banner {
-    position: realtive;
+    position: absolute;
     top: 0;
     left: 0;
+}
+
+.logobg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 235px;
+    height: 120px;
+    background-color: white;
+    opacity: .8;
 }
 
 .logo {
@@ -12,7 +23,7 @@
 
 .navbar {
     Position: absolute;
-    top: 80px;
+    top: 70px;
     right: 20px;
 }
 
@@ -22,16 +33,34 @@ a {
 
 .bar, a:visited {
     position: realitive;
-    padding-left: 8px;
-    padding-right: 8px;
-    background-color: #a8a8a8;
+    padding-left: 4px;
+    padding-right: 4px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     color: white;
+    text-shadow: 2px 2px #000000;
     list-style-type: none;
     display: inline;
 }
 
 a:hover, a:active {
-    color: brown;
+    color: white;
+    text-decoration: underline rgb(224, 223, 223);
+    text-underline-offset: 2px;
+}
+
+body {
+    background-color: #c0c5cf;
+}
+
+h1 {
+    position: relative;
+    top: 130px;
+    font-size: 36px;
+}
+
+p {
+    position: relative;
+    top: 200px;
+    font-size: 20px;
 }
