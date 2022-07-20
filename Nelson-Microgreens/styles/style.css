@@ -49,6 +49,16 @@ a:hover, a:active {
     text-underline-offset: 2px;
 }
 
+.main-content {
+    position: relative;
+    z-index: -999;
+    width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    border: 5px solid #7dd654;
+    background-color: white;
+}
+
 body {
     background-color: #c0c5cf;
 }
