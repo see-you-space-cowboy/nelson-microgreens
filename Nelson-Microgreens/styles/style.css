@@ -32,10 +32,12 @@ a {
 }
 
 .bar, a:visited {
-    position: realitive;
+    position: relative;
+    top: -10px;
+    right: -15px;
     padding-left: 4px;
     padding-right: 4px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 25px;
     color: white;
     text-shadow: 2px 2px #000000;
@@ -52,21 +54,22 @@ a:hover, a:active {
 .main-content {
     position: relative;
     z-index: -999;
-    width: 1440px;
+    width: 1660px;
     min-height: 100vh;
     margin: 0 auto;
-    border: 5px solid #7dd654;
-    background-color: white;
 }
 
 body {
-    background-color: #c0c5cf;
+    background-color: white;
 }
 
 h1 {
     position: relative;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    width: 830px;
     top: 130px;
-    font-size: 36px;
+    font-size: 120px;
 }
 
 p {
