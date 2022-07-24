@@ -61,19 +61,31 @@ a:hover, a:active {
 
 body {
     background-color: white;
+    z-index: -998;
 }
 
 h1 {
-    position: relative;
+    position: absolute;
+    left: 0;
     font-family: 'Oswald', sans-serif;
-    position: relative;
-    width: 830px;
+    width: 600px;
+    height: auto;
     top: 130px;
     font-size: 120px;
 }
 
+.slide-show {
+    position: absolute;
+    right: 0;
+    width: 960px;
+    height: 540px;
+    top: 210px;
+    background-color: blueviolet;
+
+}
+
 p {
     position: relative;
-    top: 200px;
+    top: 600px;
     font-size: 20px;
 }
