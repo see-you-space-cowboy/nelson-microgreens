@@ -31,10 +31,10 @@ a {
     text-decoration: none;
 }
 
-.bar, a:visited {
+.bar, a, a:visited {
     position: relative;
-    top: -10px;
-    right: -15px;
+    top: -5px;
+    right: -5px;
     padding-left: 4px;
     padding-right: 4px;
     font-family: 'Oswald', sans-serif;
