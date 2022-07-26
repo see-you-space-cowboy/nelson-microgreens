@@ -21,10 +21,20 @@
     left: 0;
 }
 
+.navbg {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    height: 40px;
+    width: 355px;
+    background-color: white;
+    opacity: .8;
+}
+
 .navbar {
     Position: absolute;
     top: 70px;
-    right: 20px;
+    right: 0px;
 }
 
 a {
@@ -33,21 +43,17 @@ a {
 
 .bar, a, a:visited {
     position: relative;
-    top: -5px;
-    right: -5px;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-family: 'Indie Flower', cursive;
+    padding-right: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px #000000;
+    color: black;
     list-style-type: none;
     display: inline;
 }
 
 a:hover, a:active {
-    color: white;
-    text-decoration: underline rgb(224, 223, 223);
+    color: black;
+    text-decoration: underline black;
     text-underline-offset: 2px;
 }
 
