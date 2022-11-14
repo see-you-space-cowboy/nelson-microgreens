@@ -1,6 +1,7 @@
 
 .banner {
     position: absolute;
+    width: 100%vw;
     top: 0;
     left: 0;
 }
@@ -21,20 +22,33 @@
     left: 0;
 }
 
+
 .navbg {
-    position: absolute;
+    position: relative;
+    display: block;
     top: 80px;
     right: 0px;
     height: 40px;
-    width: 355px;
+    width: 350px;
     background-color: white;
     opacity: .8;
 }
 
 .navbar {
     Position: absolute;
-    top: 70px;
+    display: block;
+    top: 0px;
     right: 0px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 a {
