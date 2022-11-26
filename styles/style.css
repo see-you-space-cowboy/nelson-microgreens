@@ -1,7 +1,15 @@
+.banner-box {
+    position: absolute;
+    display: block;
+    width: 99vw;
+    height: 120px;
+    top: 0px;
+    left: 0px;
+}
 
 .banner {
-    position: absolute;
-    width: 100%vw;
+    position: relative;
+    overflow: hidden;
     top: 0;
     left: 0;
 }
@@ -26,8 +34,8 @@
 .navbg {
     position: relative;
     display: block;
-    top: 80px;
-    right: 0px;
+    top: 60px;
+    float: right;
     height: 40px;
     width: 350px;
     background-color: white;
