@@ -1,3 +1,7 @@
+/*
+Header/banner
+*/
+
 .banner-box {
     position: absolute;
     display: block;
@@ -79,13 +83,21 @@ a:hover, a:active {
     text-underline-offset: 2px;
 }
 
+/*
+main content
+*/
+
 .main-content {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 3vw;
+    margin: auto;
     top: 90px;
     max-width: 1660px;
     width: 98vw;
-    min-height: 100vh;
 }
 
 body {
@@ -95,14 +107,39 @@ body {
 
 h1 {
     position: relative;
-    display: inline;
-    float: left;
+    display: flex;
     font-family: 'Nanum Gothic', sans-serif;
+    font-size: 5vw;
+    top: 3vw;
+    margin-top: 0px;
+    height: 29vw;
+    max-height: 560px;
+    width: 30vw;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-show {
+    position: relative;
+    display: flex;
+    top:  3vw;
+    max-width: 960px;
+    height: 29vw;
+    width: 50vw;
+    max-height: 560px;
+    margin: 0 3vw 0 0;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.slide-show img {
+    position: relative;
+    border-radius: 3vw;
+    max-width: 960px;
     width: auto;
     height: auto;
-    top: 18vh;
-    font-size: 5vw;
-    margin: 0 0 0 3vw;
 }
 
 h2 {
@@ -112,22 +149,6 @@ h2 {
     height: auto;
     top: 10px;
     font-size: 60px;
-}
-
-.slide-show {
-    position: relative;
-    display: block;
-    float: right;
-    top:  10vh;
-    max-width: 960px;
-    height: auto;
-    margin: 0 3vw 0 0;
-}
-
-.slide-show img {
-    position: relative;
-    border-radius: 30px;
-    width: 50vw;
 }
 
 input {
