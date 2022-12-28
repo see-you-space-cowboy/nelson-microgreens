@@ -7,23 +7,39 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
         <link href="styles/style.css" rel="stylesheet">
-        <script src="scripts/script.js"></script>
     </head>
     <body>
        <header class="page-header">
-        <img class="banner" src="images/banner.jpg" alt="A banner image of 6 different microgreens that sits behind the logo and navigation bar">
+        <div class="banner-box">
+        <img
+        class="banner"
+        srcset="images/banner-maxwidth.jpg 1920w, images/banner-768px.jpg 768w"
+        sizes="(max-width:768px) 768px, 1920px"
+        src="images/banner-maxwidth.jpg" 
+        alt="A banner image of 6 different microgreens that sits behind the logo and navigation bar">
+        </div>
         <div class="logobg"></div>
-        <img class="logo" src="images/logo.png" alt="Nelson Microgreens, nelson is above microgreens and a sprout with 2 leaves is coming from the r and l">
-            <div class="navbg"></div>
-             <nav class="navbar">
-                <ol>
-                    <li class="bar"><a href="index.html">Home</a></li>
-                    <li class="bar"><a href="photos.html">Photos</a></li>
-                    <li class="bar"><a href="about.html">About</a></li>
-                    <li class="bar"><a href="order.html">Order</a></li>
-                </ol>
-            </nav>  
+        <img class="logo"
+        srcset="images/logo-48pxheight.png 98w, images/logo-maxheight.png 232w"
+        sizes="(max-width:768px) 98px, 232px"
+        src="images/logo-maxheight.png"
+        alt="Nelson Microgreens, nelson is above microgreens and a sprout with 2 leaves is coming from the r and l">
+            <div class="navbg">
+                    <nav class="navbar">
+                        <ol class="list">
+                            <li class="bar"><a href="index.html">Home</a></li>
+                            <li class="bar"><a href="Photos.html">Photos</a></li>
+                            <li class="bar"><a href="About.html">About</a></li>
+                            <li class="bar"><a href="Order.html">Order</a></li>
+                        </ol>
+                    </nav>
+                        <button class="hamburger">
+                            <i class="menuIcon material-symbols-outlined">menu</i>
+                            <i class="closeIcon material-symbols-outlined">close</i>
+                        </button>
+            </div>
         </header>
         <div class="main-content">
         <h2>Grown to order Microgreens</h2>
@@ -126,4 +142,5 @@
 
   </div>
     </body>
+    <script src="scripts/script.js"></script>
     </html>
