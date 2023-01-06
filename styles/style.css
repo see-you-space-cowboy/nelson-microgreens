@@ -188,7 +188,7 @@ p {
     font-size: 20px;
 }
 /*
-Gallery
+Photo Gallery
 
 4x3 aspect ratio
 
@@ -200,6 +200,7 @@ Gallery
     justify-content: center;
     gap: 20px;
     max-width: 1660px;
+    overflow-x: hidden;
 }
 
 .gallery img {
@@ -211,6 +212,7 @@ Gallery
     width: 21vw;
     height: auto;
     vertical-align: middle;
+    transition: all 0.3s;
 }
 
 .gallery img.full {
