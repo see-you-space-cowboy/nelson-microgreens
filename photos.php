@@ -44,8 +44,6 @@
         </header>
     <div class="main-content">
         <h2>Photo Gallery</h2>
-        <div class="para2"><p>photos</p></div> 
-        
         <div class="gallery">
         <?php
         // GET IMAGES IN GALLERY FOLDER

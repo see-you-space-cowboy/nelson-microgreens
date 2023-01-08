@@ -207,6 +207,7 @@ h2 {
     font-size: 20px;
     padding: 20px;
     background-color: #46873e;
+    color:#ffffff;
 }
 
 .about-bg {
@@ -362,9 +363,8 @@ Media Screen 768 width
     left: 0;
     width: 116px;
     height: 48px;
-    background-color: white;
-    opacity: .8;
-}
+    background-color: #ffffff;
+    }
 
 .hamburger {
     display: block;
@@ -474,6 +474,7 @@ h1 {
     margin-top: 0;
     font-size: 16px;
     background-color: #46873e;
+    color:#ffffff;
 }
 
 .slide-show {
