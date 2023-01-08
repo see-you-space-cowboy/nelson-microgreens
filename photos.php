@@ -30,7 +30,8 @@
                     <nav class="navbar">
                         <ol class="list">
                             <li class="bar"><a href="index.html">Home</a></li>
-                            <li class="bar"><a href="Photos.html">Photos</a></li>
+                            <li class="bar"><a href="feed.html">Feed</a></li>
+                            <li class="bar"><a href="photos.php">Photos</a></li>
                             <li class="bar"><a href="About.html">About</a></li>
                             <li class="bar"><a href="Order.html">Order</a></li>
                         </ol>

@@ -2,14 +2,21 @@
 Header/banner
 */
 
+header {
+margin: 0;
+height: 0;
+}
+
 .banner-box {
     position: absolute;
     display: block;
     overflow: hidden;
-    width: 99vw;
+    width: 100vw;
     height: 120px;
     top: 0px;
     left: 0px;
+    background-image: url("../images/banner-maxwidth.jpg");
+    background-repeat: repeat-x;
 }
 
 .banner {
@@ -41,7 +48,7 @@ Header/banner
     top: 80px;
     float: right;
     height: 40px;
-    width: 350px;
+    width: 420px;
     background-color: white;
     opacity: .8;
 }
@@ -95,17 +102,20 @@ a:hover, a:active {
 /*
 main content
 */
+.center-main {
+    display: block;
+    margin: auto;
+}
 
 .main-content {
     position: relative;
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     margin: auto;
     gap: 2vw;
     top: 90px;
-    max-width: 1660px;
+    max-width: 3860px;
     width: 98vw;
 }
 
@@ -115,9 +125,15 @@ main content
 }
 
 body {
+    display: block;
+    position: relative;
+    margin: 0;
+    height: 100vh;
+}
+
+.background {
+    display: block;
     background-color: white;
-    z-index: -998;
-    margin: 0px;
 }
 
 h1 {
@@ -130,7 +146,7 @@ h1 {
     height: 29vw;
     max-height: 560px;
     width: 30vw;
-    max-width: 700px;
+    max-width: 570px;
     align-items: center;
     justify-content: center;
 }
@@ -176,9 +192,39 @@ h2 {
 .para2 {
     position: relative;
     display: block;
+    text-align: center;
     margin: auto;
     margin-top: 0;
+    font-size: 20px;
 }
+
+.para3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #46873e;
+}
+
+.about-bg {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    top: 0;
+    max-width: 1660px;
+    width: 90vw;
+    height: 700px;
+    margin: 0px auto 0px auto;
+    background-image: url("../images/chia-backdrop.jpg");
+    z-index: -99;
+    gap: 2vw;
+}
+
 input {
     z-index: 999999;
 }
@@ -367,7 +413,7 @@ Media Screen 768 width
 .bar, a, a:visited {
     position: relative;
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
     color: black;
     list-style-type: none;
@@ -386,7 +432,6 @@ main content 768w
 .main-content {
     position: relative;
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
     justify-content: center;
     margin: auto;
@@ -409,6 +454,26 @@ h1 {
     margin: 0px 0px 0px 0px;
     height: 158px;
     width: 280px;
+}
+
+.para2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.para3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    font-size: 16px;
+    background-color: #46873e;
 }
 
 .slide-show {
@@ -490,5 +555,75 @@ p3 {
      text-align: center;
      box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
      border-radius: 6px;
+}
+.about-bg {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    top: 0;
+    max-width: 1660px;
+    width: 90vw;
+    height: 900px;
+    margin: 0px auto 0px auto;
+    background-image: url("../images/chia-backdrop.jpg");
+    z-index: -99;
+    gap: 2vw;
+}
+
+
+}
+
+/*
+media screen 1921w and up 
+LARGE SCREENS
+*/
+
+@media screen and (min-width: 1921px) {
+
+    h1 {
+        position: relative;
+        display: flex;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 96px;
+        top: 3vw;
+        margin-top: 0px;
+        height: 29vw;
+        max-height: 560px;
+        width: 30vw;
+        max-width: 570px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide-show {
+        position: relative;
+        display: flex;
+        top:  3vw;
+        max-width: 870px;
+        height: 29vw;
+        width: 50vw;
+        max-height: 560px;
+        margin: 0 57px 0 0;
+        align-content: center;
+        justify-content: center;
+}
+
+
+.about-bg {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    top: 0;
+    max-width: 1660px;
+    width: 90vw;
+    height: 700px;
+    margin: 0px auto 0px auto;
+    background-image: url("../images/chia-backdrop.jpg");
+    z-index: -99;
+    gap: 38px;
 }
 }
