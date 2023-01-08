@@ -245,7 +245,7 @@ Photo Gallery
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    max-width: 1660px;
+    max-width: 3860px;
     overflow-x: hidden;
 }
 
