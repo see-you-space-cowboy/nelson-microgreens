@@ -29,11 +29,11 @@
             <div class="navbg">
                     <nav class="navbar">
                         <ol class="list">
-                            <li class="bar"><a href="index.html">Home</a></li>
-                            <li class="bar"><a href="feed.html">Feed</a></li>
-                            <li class="bar"><a href="photos.php">Photos</a></li>
-                            <li class="bar"><a href="About.html">About</a></li>
-                            <li class="bar"><a href="Order.html">Order</a></li>
+                            <li class="bar"><a href="index.html" class="link">Home</a></li>
+                            <li class="bar"><a href="feed.html" class="link">Feed</a></li>
+                            <li class="bar"><a href="photos.php" class="link">Photos</a></li>
+                            <li class="bar"><a href="About.html" class="link">About</a></li>
+                            <li class="bar"><a href="Order.html" class="link">Order</a></li>
                         </ol>
                     </nav>
                         <button class="hamburger">
@@ -55,7 +55,11 @@
         <a href="tel:7176094787"><img class="media-icons" srcset="images/phone-icon.jpg" alt="Call Nelson Microgreens"></a>
         <div class="break-mobile"></div>
         <div class="feature-wrap">
-        <img class="feature" src="images/organic100.png" alt="100 % organic with globe behind text">
+        <img
+        class="feature"
+        srcset=" images/organic100-768.png 240w, images/organic100.png 480w"
+        sizes="(max-width:768px) 240px, 480px"
+        alt="100 % organic with globe behind text">
         <div class="feature-text">
             Our Microgreens are 100% Organic as mother earth intended them to be! We pride ourselves on growing as naturally as possible. The water we give our plants is free of chloramine and flouride and has many natural minerals. We do not use any harmful pesticides on our greens PERIOD. many pesticides attack the insects central nervious system, does that sound appetizing? We grow our greens in dirt like nature does, plus it yields more flavor than hydroponics.
         </div>
@@ -63,16 +67,41 @@
         <div class="feature-text">
             All our plants are GMO FREE! non GMO plants have double the flavor and nutrition. 
         </div>
-        <img class="feature" src="images/gmo-free.png" alt="gmo free text, sunflower with a heart center">
-        </div>
-        <img class="feature" src="images/omri.jpg" alt="omri listed">
+        <img
+        class="feature"
+        srcset="images/gmo-free-768.png 240w, images/gmo-free.png 480w"
+        sizes="(max-width:768px) 240px, 480px"
+        alt="gmo free text, sunflower with a heart center">
+        <div class="break"></div>
+        <img
+        class="feature"
+        srcset="images/omri-768.jpg 240w, images/omri.jpg 480w"
+        sizes="(max-width:768px) 240px, 480px"
+        alt="omri listed">
         <div class="feature-text">
             Our soil is omri listed. The OMRI Listed® seal assures the suitability of products for certified organic production deemed by The Organic Materials Review Institute an international nonprofit organization that determines which input products are allowed for use in organic production and processing. In short this means our soil is certified organic by the greatest experts in the field.
+        </div>
         </div>
 
         </p>
         
     </div>
+    <footer>
+        <div class="greenfooter">
+
+        </div>
+        <div class="brownfooter">
+            <nav class="footer-nav">
+                <ol class="footer-list">
+                    <li class="foot-bar"><a href="index.html">Home</a></li>
+                    <li class="foot-bar"><a href="feed.html">Feed</a></li>
+                    <li class="foot-bar"><a href="photos.php">Photos</a></li>
+                    <li class="foot-bar"><a href="About.html">About</a></li>
+                    <li class="foot-bar"><a href="Order.html">Order</a></li>
+                </ol>
+            </nav>
+        </div>
+    </footer>
     </body>
     <script src="scripts/script.js"></script>
     </html>
