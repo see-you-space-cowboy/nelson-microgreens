@@ -41,9 +41,6 @@ height: 0;
     left: 0;
 }
 
-.navbg {
-}
-
 .navbar {
     position: relative;
     float: right;
@@ -433,14 +430,15 @@ Media Screen 768 width
         top: 0px;
         left: 0px;
     }
-    
+
     .logobg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 116px;
-    height: 48px;
-    background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 48px;
+        background-color: white;
+        opacity: .8;
     }
 
 .hamburger {
