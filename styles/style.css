@@ -369,12 +369,12 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     Width: 100%;
-    height: 100px;
+    height: 75px;
     background-color: #46873e;
 }
 
 .media-icons-small {
-    margin: 25px 0;
+    margin: 14px 0;
 }
 .brownfooter {
     display: block;

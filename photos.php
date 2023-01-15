@@ -31,8 +31,8 @@
                             <li class="bar"><a href="index.html" class="link">Home</a></li>
                             <li class="bar"><a href="feed.html" class="link">Feed</a></li>
                             <li class="bar"><a href="photos.php" class="link">Photos</a></li>
-                            <li class="bar"><a href="About.html" class="link">About</a></li>
-                            <li class="bar"><a href="Order.html" class="link">Order</a></li>
+                            <li class="bar"><a href="about.html" class="link">About</a></li>
+                            <li class="bar"><a href="order.html" class="link">Order</a></li>
                         </ol>
                     </nav>
                         <button class="hamburger">
@@ -74,8 +74,8 @@
                     <li class="barfoot"><a href="index.html" class="linkfoot">Home</a></li>
                     <li class="barfoot"><a href="feed.html" class="linkfoot">Feed</a></li>
                     <li class="barfoot"><a href="photos.php" class="linkfoot">Photos</a></li>
-                    <li class="barfoot"><a href="About.html" class="linkfoot">About</a></li>
-                    <li class="barfoot"><a href="Order.html" class="linkfoot">Order</a></li>
+                    <li class="barfoot"><a href="about.html" class="linkfoot">About</a></li>
+                    <li class="barfoot"><a href="order.html" class="linkfoot">Order</a></li>
                 </ol>
             </nav>
         </div>
