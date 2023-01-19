@@ -33,6 +33,7 @@
                             <li class="bar"><a href="photos.php" class="link">Photos</a></li>
                             <li class="bar"><a href="about.html" class="link">About</a></li>
                             <li class="bar"><a href="order.html" class="link">Order</a></li>
+                            <li class="bar"><a href="contact.html" class="link">Contact</a></li>
                         </ol>
                     </nav>
                         <button class="hamburger">
@@ -76,6 +77,7 @@
                     <li class="barfoot"><a href="photos.php" class="linkfoot">Photos</a></li>
                     <li class="barfoot"><a href="about.html" class="linkfoot">About</a></li>
                     <li class="barfoot"><a href="order.html" class="linkfoot">Order</a></li>
+                    <li class="barfoot"><a href="contact.html" class="linkfoot">Contact</a></li>
                 </ol>
             </nav>
         </div>

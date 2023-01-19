@@ -49,12 +49,12 @@ height: 0;
     
     .list {
         position: relative;
-        diplay: block;
+        display: block;
         height: 40px;
-        width: 400px;
+        width: 495px;
         list-style-type: none;
         background-color: rgb(255, 255, 255, .8);
-        padding-inline-start: 10px;
+        padding-inline-start: 0px;
     }
     
     a.link {
@@ -103,6 +103,7 @@ main content
     top: 90px;
     max-width: 3860px;
     width: 98vw;
+    z-index: 999;
 }
 
 .break {
@@ -355,11 +356,74 @@ p3 {
 }
 
 /*
+contact
+*/
+.para4 {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 20px;
+    color:#ffffff;
+}
+
+.contact-bg {
+    display: block;
+    position: relative;
+    top: 0;
+    max-width: 1660px;
+    width: 90vw;
+    height: 700px;
+    margin: 0px auto 0px auto;
+    background-color: #46873e;
+    z-index: -99;
+    gap: 2vw;
+}
+
+.form-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 100%;
+    height: auto;
+    
+}
+
+.form-class {
+    display: block;
+    height: 30px;
+    width: 200px;
+}
+
+.form-class-message {
+    display: block;
+    width: 90%;
+    height: 350px;
+}
+
+.send-button {
+    display: block;
+    height: 60px;
+    width: 200px;
+}
+
+
+/*
 Footer
 */
 
 footer {
+    position: relative;
     margin-top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .greenfooter {
@@ -392,7 +456,7 @@ float: right;
 .listfoot {
     position: relative;
     height: 40px;
-    width: 700px;
+    width: 768px;
     margin: auto;
     list-style-type: none;
     padding-inline-start: 0px;
@@ -405,7 +469,7 @@ display: block;
 
 li.barfoot a, a:visited {
 float: left;
-    padding: 15px 48px;
+    padding: 15px 40px;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
     color: white;
@@ -483,7 +547,7 @@ Media Screen 768 width
     float: left;
         padding: 5px 4px;
         font-family: 'Nanum Gothic', sans-serif;
-        font-size: 17px;
+        font-size: 13px;
         color: black;
         text-align: center;
     }
