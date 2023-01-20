@@ -104,6 +104,7 @@ main content
     max-width: 3860px;
     width: 98vw;
     z-index: 999;
+    margin-bottom: 100px;
 }
 
 .break {
@@ -117,7 +118,12 @@ body {
     display: block;
     position: relative;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+.all-content {
+    padding-bottom: 200px;
 }
 
 .background {
@@ -232,7 +238,7 @@ h2 {
     top: 0;
     max-width: 1660px;
     width: 90vw;
-    height: 700px;
+    height: 435px;
     margin: 0px auto 0px auto;
     background-image: url("../images/chia-backdrop.jpg");
     z-index: -99;
@@ -362,7 +368,6 @@ contact
     position: relative;
     display: block;
     text-align: center;
-    width: 100%;
     height: fit-content;
     margin-top: 0;
     margin-bottom: 0;
@@ -377,7 +382,8 @@ contact
     top: 0;
     max-width: 1660px;
     width: 90vw;
-    height: 700px;
+    height: fit-content;
+    padding-bottom: 40px;
     margin: 0px auto 0px auto;
     background-color: #46873e;
     z-index: -99;
@@ -389,7 +395,7 @@ contact
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 2vw;
+    gap: 40px;
     width: 100%;
     height: auto;
     
@@ -404,7 +410,7 @@ contact
 .form-class-message {
     display: block;
     width: 90%;
-    height: 350px;
+    height: 150px;
 }
 
 .send-button {
@@ -419,8 +425,7 @@ Footer
 */
 
 footer {
-    position: relative;
-    margin-top: 150px;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -568,6 +573,7 @@ main content 768w
     flex-flow: wrap;
     justify-content: center;
     margin: auto;
+    margin-bottom: 100px;
     gap: 2vw;
     top: 50px;
     max-width: 1660px;
