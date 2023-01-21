@@ -405,18 +405,21 @@ contact
     display: block;
     height: 30px;
     width: 200px;
+    background: #feffc7;
 }
 
 .form-class-message {
     display: block;
     width: 90%;
     height: 150px;
+    background: #feffc7;
 }
 
 .send-button {
     display: block;
     height: 60px;
     width: 200px;
+    background: #feffc7;
 }
 
 
